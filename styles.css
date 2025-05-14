@@ -138,9 +138,27 @@ body {
 .star:nth-child(5)::after {
     animation-delay: 1.8s;
 }
+/* Make the body full height and set a dark background */
+body {
+    background-color: #000; /* Dark background to enhance text glow */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align text at the top */
+    padding-top: 20px; /* Optional: Add some spacing from the top */
+}
+
+/* Glowing text style */
 .glow {
-    font-size: 3rem; /* Adjust the size as needed */
+    font-size: 2.5rem; /* Adjust size as needed */
     color: #fff; /* Base text color */
-    text-align: center; /* Align the text */
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
+    text-align: center; /* Center align the text */
+    text-shadow: 
+        0 0 5px #fff, 
+        0 0 10px #fff, 
+        0 0 15px #fff; /* Subtle white glow */
+    margin: 0; /* Remove default margin */
 }
