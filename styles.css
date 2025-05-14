@@ -138,3 +138,9 @@ body {
 .star:nth-child(5)::after {
     animation-delay: 1.8s;
 }
+.glow {
+    font-size: 3rem; /* Adjust the size as needed */
+    color: #fff; /* Base text color */
+    text-align: center; /* Align the text */
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
+}
